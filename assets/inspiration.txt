@@ -1,0 +1,38 @@
+****Pris en compte****
+
+charte graphique : 3 couleurs
+- une pour le fond #E6EBE4
+- une pour le texte #33344A
+- une pour la mise en valeur #F7CEC1 ou #F8E9CF
+
+les sections de gauche :
+- skills
+<i class="fas fa-cogs"></i>
+<FontAwesomeIcon icon="fas fa-cogs" />
+<i class="fas fa-paperclip"></i>
+<FontAwesomeIcon icon="fas fa-paperclip" />
+- education
+<i class="fas fa-graduation-cap"></i>
+<FontAwesomeIcon icon="fas fa-graduation-cap" />
+- experience
+<i class="fas fa-briefcase"></i>
+<FontAwesomeIcon icon="fas fa-briefcase" />
+- my works
+<i class="far fa-file-code"></i>
+<FontAwesomeIcon icon="far fa-file-code" />
+- about me
+<i class="fas fa-user"></i>
+<FontAwesomeIcon icon="fas fa-user" />
+
+
+
+****A prendre en compte****
+
+https://renuvo-128.webflow.io/contact
+
+width:
+1 --> 479px : format mobile (pas photo)
+480 --> 767 : format smartphone (pas photo)
+768 --> 991 : format tablette
+992 --> 1279 : format desktop reduced
+1280 + : format desktop

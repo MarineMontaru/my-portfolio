@@ -1,0 +1,5 @@
+/*CSS spécifique à la page about-me.html*/
+
+#header__nav__about-me {
+    color: var(--highligtht-color);
+}

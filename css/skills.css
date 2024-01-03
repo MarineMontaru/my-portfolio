@@ -1,0 +1,97 @@
+/*CSS spécifique à la page skills.html*/
+
+#header__nav__skills {
+    color: var(--highligtht-color);
+}
+
+.competences > section {
+    margin: 40px 0;
+}
+
+
+/* ---------------COMPETENCES TECHNIQUES---------------- */
+
+.competences__techniques__details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.competences__techniques__details > li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.competences__techniques__details > li > p {
+    margin: 5px 0;
+}
+
+/*Barres de progression des compétences*/
+
+.comptences__techniques__details__greybar {
+    background-color: rgb(94, 94, 94);
+    width: 100%;
+    height: 5px;
+}
+
+@keyframes ProgressBar10 {
+    from {width: 0;}
+    to {width: 10%;}
+}
+
+@keyframes ProgressBar50 {
+    from {width: 0;}
+    to {width: 50%;}
+}
+
+@keyframes ProgressBar70 {
+    from {width: 0;}
+    to {width: 70%;}
+}
+
+@keyframes ProgressBar90 {
+    from {width: 0;}
+    to {width: 90%;}
+}
+
+.competences__techniques__details__level {
+    position: relative;
+}
+
+.comptences__techniques__details__progressbar {
+    content: "";
+    background-color: var(--highligtht-color);
+    position: absolute;
+    height: 5px;
+}
+
+#comptences__techniques__details__progressbar-HTML-CSS {
+    animation: ProgressBar50 300ms 0.5s forwards;
+}
+
+#comptences__techniques__details__progressbar-PHP {
+    animation: ProgressBar10 300ms 0.55s forwards;
+}
+
+#comptences__techniques__details__progressbar-pb {
+    animation: ProgressBar90 300ms 0.6s forwards;
+}
+
+#comptences__techniques__details__progressbar-com {
+    animation: ProgressBar90 300ms 0.65s forwards;
+}
+
+#comptences__techniques__details__progressbar-change {
+    animation: ProgressBar70 300ms 0.7s forwards;
+}
+
+/* ------------FIN DE COMPETENCES TECHNIQUES------------- */
+/* ----------------------LANGUES------------------------- */
+
+
+
+
+
+/* -------------------FIN DE LANGUES--------------------- */

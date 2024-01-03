@@ -1,0 +1,5 @@
+/*CSS spécifique à la page works.html*/
+
+#header__nav__works {
+    color: var(--highligtht-color);
+}

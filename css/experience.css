@@ -1,0 +1,71 @@
+/*CSS spécifique à la page experience.html*/
+
+#header__nav__experience {
+    color: var(--highligtht-color);
+}
+
+.experience,
+.experience__job {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    margin-top: 30px;
+}
+
+.experience__job {
+    width: 100%;
+    padding: 0 0 30px 15px;
+    position: relative;
+}
+
+
+
+
+.experience__job__time::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 20px;
+    background-color: var(--highligtht-color);
+}
+
+.experience__job__time::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 2px;
+    height: 40px;
+    background-color: var(--highligtht-color);
+}
+
+.experience__job > p {
+    margin: 0px;
+}
+
+.experience__job__time {
+    color: var(--highligtht-color);
+}
+
+.experience__job__titre {
+    font-weight: 700;
+}
+
+.experience__job__entreprise {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.experience__job__details > ul,
+.experience__job__details > ul > li {
+    list-style: unset;
+    margin: 5px 0 0 10px;
+    
+}
+
+.experience__job__details > ul > li {
+    font-size: 0.8em;
+}
+

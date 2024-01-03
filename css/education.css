@@ -1,0 +1,56 @@
+/*CSS spécifique à la page education.html*/
+
+#header__nav__education {
+    color: var(--highligtht-color);
+}
+
+.formation,
+.formation__diplome {
+    display: flex;
+    flex-direction: column;
+}
+
+.formation {
+    margin-top: 30px;
+}
+
+.formation__diplome {
+    width: 100%;
+    padding: 0 0 30px 15px;
+    position: relative;
+}
+
+.formation__diplome__date::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 20px;
+    background-color: var(--highligtht-color);
+}
+
+.formation__diplome__date::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 2px;
+    height: 40px;
+    background-color: var(--highligtht-color);
+}
+
+.formation__diplome > p {
+    margin: 0px;
+}
+
+.formation__diplome__date {
+    color: var(--highligtht-color);
+}
+
+.formation__diplome__titre {
+    font-weight: 700;
+}
+
+.formation__diplome__organisme {
+    font-size: 0.8em;
+    font-style: italic;
+}
