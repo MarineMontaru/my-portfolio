@@ -27,7 +27,7 @@ ul, li {
     margin: 0;
 }
 
-img {
+figure > img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -207,6 +207,10 @@ main,
 /**Masque la scrollbar, mais pas très propre**/
 .content::-webkit-scrollbar {
     width: 1px; /* width of the entire scrollbar */
+}
+
+h2 {
+    color: var(--highligtht-color);
 }
 
 /*-----------------------END OF CONTENT------------------------------*/

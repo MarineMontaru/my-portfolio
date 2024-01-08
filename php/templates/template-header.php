@@ -28,7 +28,8 @@
             
                 <nav class="header__nav">
             
-                    <a href="./skills.php" id="header__nav__skills">
+   
+                <a href="./skills.php" id="header__nav__skills">
                         <i class="fas fa-paperclip" aria-label="Skills"></i>
                     </a>
             
@@ -41,11 +42,11 @@
                     </a>
             
                     <a href="./works.php"  id="header__nav__works">
-                        <i class="fas fa-file-code"></i>
+                        <i class="fas fa-code"></i>
                     </a>
             
-                    <a href="./about-me.php"  id="header__nav__about-me">
-                        <i class="fas fa-user" aria-label="About me"></i>
+                    <a href="./contact.php"  id="header__nav__contact">
+                    <i class="far fa-address-card" aria-label="Contact"></i>
                     </a>
             
                 </nav>

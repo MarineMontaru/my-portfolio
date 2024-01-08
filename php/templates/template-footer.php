@@ -1,9 +1,9 @@
-                </section>
+</section>
 
-            </main>
+</main>
 
-        </section>
+</section>
 
-    </body>
+</body>
 
 </html>

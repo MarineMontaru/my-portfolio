@@ -1,0 +1,54 @@
+/*CSS spécifique à la page about-me.html*/
+
+#header__nav__contact {
+    color: var(--highligtht-color);
+}
+
+.contact__form {
+    margin-top:20px; 
+}
+
+.contact fieldset {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: none;
+    padding: 10px 0 10px 0;
+}
+
+.contact__form__submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.contact button {
+    background-color: var(--highligtht-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+
+   /*  &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%) scaleX(0);
+        transform-origin: 50% 50%;
+        width: 60px;
+        height: 15px;
+        background-color: var(--highligtht-color);
+        transition: transform 250ms;
+    }*/
+
+    &:hover {
+        /* &::after {
+            transform: translateX(-50%) scaleX(1);
+        } */
+        opacity: 0.8;
+    }
+    
+}
+
+em {
+    color: var(--highligtht-color);
+}
