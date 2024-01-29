@@ -16,39 +16,15 @@
 
         <h3>Techniques</h3>
 
-        <?php
-        $competences = [
-            "HTML/CSS" => "50%",
-            "PHP" => "10%",
-            "Résolution de problèmes" => "90%",
-            "Rédaction et communication" => "90%",
-            "Conduite du changement" => "70%"
-        ]
-        ?>  
-
-        <?php 
-
-        foreach ($competences as $skill => $level) : 
-        ?>
-
-        <section class="competences__techniques__details">
-
-            <div class="competences__techniques__details__titre">
-                <p><?=$skill?></p>
-                <p><?=$level?></p>
-            </div>
-
-        <?php $levelNb = intval($level);
-        ?>
-        
-            <div class="competences__techniques__details__level">
-                <div class="competences__techniques__details__greybar"></div>
-                <div class="competences__techniques__details__progressbar competences__techniques__details__progressbar-<?=$levelNb?>"></div>
-            </div>
-
-        </section>
-
-        <?php endforeach; ?>    
+        <ul>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Boostrap</li>
+            <li>Gestion de projet</li>
+            <li>AMOA</li>
+        </ul>
     
     </section>
 

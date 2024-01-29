@@ -8,7 +8,7 @@
 
         <h1>Marine Montaru</h1>
 
-        <p>Développeuse web - En formation</p>
+        <p>Développeuse web <br>fullstack JavaScript-PHP</p>
 
         <section class="banner__id__contact">
         

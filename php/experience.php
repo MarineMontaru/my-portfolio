@@ -16,7 +16,7 @@
     <article class="experience__job">
 
         <p class="experience__job__time">
-            Depuis Juillet 2017
+            Depuis Juil. 2017
         </p>
 
         <p class="experience__job__titre">
@@ -40,7 +40,7 @@
     <article class="experience__job">
 
         <p class="experience__job__time">
-            Octobre 2016 - Juin 2017
+            Oct. 2016 - Juin 2017
         </p>
 
         <p class="experience__job__titre">
@@ -63,7 +63,7 @@
     <article class="experience__job">
 
         <p class="experience__job__time">
-            Octobre 2015 - Octobre 2016
+            Oct. 2015 - Oct. 2016
         </p>
 
         <p class="experience__job__titre">
@@ -85,7 +85,7 @@
     <article class="experience__job">
 
         <p class="experience__job__time">
-            Octobre 2011 - Octobre 2015
+            Oct. 2011 - Oct. 2015
         </p>
 
         <p class="experience__job__titre">

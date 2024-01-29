@@ -26,7 +26,7 @@
 
         <fieldset>
             <label for="message">Votre message<em>*</em></label>
-            <textarea name="message" class="contact__form__field" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+            <textarea name="message" class="contact__form__field" id="message" cols="22" rows="7" placeholder="Message" required></textarea>
         </fieldset>
 
         <fieldset>

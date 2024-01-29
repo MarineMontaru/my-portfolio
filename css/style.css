@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0;
     transition: 300ms ease-in-out;
     background-color: white;
@@ -35,7 +35,7 @@ figure > img {
 
 a {
    text-decoration: none;
-   color: inherit;      /********A modifier ?***********/
+   color: inherit;
 }
 
 ul, li {
@@ -65,13 +65,22 @@ button:hover {
 }
 
 header,
-.content {
-    height: 80vh;
+.content,
+main {
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.content,
+header {
     background-color: var(--background-color);
 }
 
 header {
-    width: 80px;
+    width: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -80,36 +89,23 @@ header {
 }
 
 .banner {
-    height: 90vh;
-    width: 25vw;
-    margin: 5vh 0;;
+    height: 100vh;
+    width: 5px;
     display: flex;
     justify-content:  center;
     box-shadow: 0 0 20px black;
     z-index: 20;
 }
 
-main,
-.background-content,
-.content {
-    width: 50vw;
-    height: 80vh;
-}
-
-.background-content,
-.content {
-    position: absolute;
-    background-color: var(--background-color);
-}
-
 /*------------------END OF PARENT SECTIONS---------------------------*/
-/*----------------------------HEADER-------------------------------------*/
+/*------------------------HEADER-------------------------------------*/
 
 .header__initials {
     font-weight: 700;
-    font-size: 1.6rem;
-    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-top: 5px;
     position: relative;
+    z-index: 50;
 }
 
 .header__initials::after {
@@ -117,9 +113,10 @@ main,
     background-color: var(--highligtht-color);
     height: 3px;
     bottom: 0;
-    left: 25px;
-    right: 25px;
+    left: 10px;
+    right: 10px;
     position: absolute;
+    z-index: 90;
 }
 
 .header__nav {
@@ -142,19 +139,21 @@ main,
 /*----------------------------BANNER-------------------------------------*/
 
 .banner__id {
-    position: absolute;
-    bottom: calc(5vh + 30px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
     align-self: center;
     text-align: center;
-    width: inherit; 
-    padding: 10px 5px;
-    background-color: rgba(0, 0, 0, 0.35);
+    padding: 10px 5px 10px 60px;
+    background-color: #131F2B;
+    z-index: -20;
     text-shadow: 0px 0px 20px rgb(61, 61, 61);
 }
 
 .banner__id > h1 {
-    font-size: 2em;
-    width: inherit; 
+    font-size: 1.5em;
+
 }
 
 .banner__id__contact > a {
@@ -162,7 +161,6 @@ main,
     margin: 10px;
 }
 
-/**Je ne comprends pas pourquoi ici il a fallu que je fasse la transition sur les icones alors que cela fonctionne sur les ancres du header**/
 .banner__id__contact i{
     transition: transform 300ms;
 }
@@ -174,39 +172,14 @@ main,
 /*------------------------END OF BANNER-------------------------------*/
 /*----------------------------CONTENT-----------------------------------*/
 
-@keyframes MoveRight {
-    0% {
-        width: 0; 
-    }
-    100% {
-        width: 50vw;
-    }
-}
-
-@keyframes Appear {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.background-content{
-    animation: MoveRight 300ms; 
-} 
-
 .content {
-    padding: 20px 20px 20px 30px;
-    opacity: 0;
-    animation: Appear 30ms 300ms ease-in-out forwards;
+    padding: 170px 20px 20px 30px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
-/**Masque la scrollbar, mais pas très propre**/
 .content::-webkit-scrollbar {
-    width: 1px; /* width of the entire scrollbar */
+    width: 1px;
 }
 
 h2 {
@@ -214,3 +187,119 @@ h2 {
 }
 
 /*-----------------------END OF CONTENT------------------------------*/
+/*--------------------TABLET-----------------------------*/
+
+@media screen and (min-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .homepage-container {
+        justify-content: center;
+    }
+
+    main {
+        flex-grow: 0;
+    }
+
+    header,
+    .content,
+    main,
+    .background-content,
+    .content {
+        height: 80vh;
+    }
+
+    main,
+    .background-content,
+    .content {
+        width: calc(100vw - 220px - 200px);
+    }  
+    
+    header {
+        width: 80px;
+    }
+
+    .header__initials {
+        font-size: 1.6rem;
+        margin-top: 10px;
+    }
+    
+    .header__initials::after {
+        bottom: 0;
+        left: 25px;
+        right: 25px;
+    }
+
+
+    .banner {
+        margin: 5vh 0;
+        height: 90vh;
+        width: 250px;
+    }
+
+    .banner__id {
+        background-color: rgba(0, 0, 0, 0.35);
+        position: absolute;
+        top: unset;
+        left: unset;
+        padding-left: 5px;
+        bottom: calc(5vh + 30px);
+        width: inherit; 
+        z-index: 0;
+    }
+    
+    .banner__id > h1 {
+        font-size: 2em;
+    }
+
+    @keyframes MoveRightTablet {
+        from {width: 0;}
+        to {width: calc(100vw - 220px - 200px)}
+    }
+    
+    .background-content{
+        height: 80vh;
+        position: absolute;
+        background-color: var(--background-color);
+        animation: MoveRightTablet 300ms forwards; 
+        z-index: 0;
+    }
+
+    @keyframes Appear {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    } 
+
+    .content {
+        opacity: 0;
+        animation: Appear 30ms 300ms ease-in-out forwards;
+        padding-top: 20px;
+        z-index: 0;
+        position: absolute;
+    }
+}
+
+/*--------------------END OF TABLET-----------------------------*/
+/*-----------------------DESKTOP--------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+    .banner {
+        width: 300px;
+    }
+
+    @keyframes MoveRightDesktop {
+        from {width: 0;}
+        to {width: calc(100vw - 220px - 200px)}
+    }
+
+    .background-content{
+        animation: MoveRightDesktop 300ms forwards; 
+    }
+
+
+}
+
+/*--------------------END OF DESKTOP-----------------------------*/

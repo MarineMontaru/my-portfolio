@@ -10,7 +10,7 @@
         <meta name="author" content="Marine Montaru">
         <meta name="description" content="Marine Montaru presentation">
 
-        <link rel="icon" href="../../assets/bonjour.png" type="image/x-icon">
+        <link rel="icon" href="../../assets/fav.png" type="image/x-icon">
         <link rel="stylesheet" href="../css/style.css"> 
         <script src="https://kit.fontawesome.com/56af0e18c9.js" crossorigin="anonymous"></script>
 

@@ -15,7 +15,7 @@
     <article class="formation__diplome">
 
         <p class="formation__diplome__date">
-            Décembre 2023 - Juin 2024
+            Dec. 2023 - Juin 2024
         </p>
 
         <p class="formation__diplome__titre">
@@ -32,11 +32,11 @@
     <article class="formation__diplome">
 
         <p class="formation__diplome__date">
-            Octobre 2015 - Octobre 2016 (en alternance)
+            Oct. 2015 - Oct. 2016
         </p>
         
         <p class="formation__diplome__titre">
-            Diplôme de Mastère Spécialisé Management Qualité, Sécurité, Environnement
+            Diplôme de Mastère Spécialisé Management Qualité, Sécurité, Environnement (alternance)
         </p>
 
         <p class="formation__diplome__organisme">
@@ -49,7 +49,7 @@
     <article class="formation__diplome">
         
         <p class="formation__diplome__date">
-            Septembre 2008 - Septembre 2011
+            Sep. 2008 - Sep. 2011
         </p>
 
         <p class="formation__diplome__titre">

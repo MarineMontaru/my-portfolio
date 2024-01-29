@@ -1,5 +1,3 @@
-/*CSS spécifique à la page about-me.html*/
-
 #header__nav__contact {
     color: var(--highligtht-color);
 }
@@ -9,8 +7,8 @@
 }
 
 .contact fieldset {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
     border: none;
     padding: 10px 0 10px 0;
 }
@@ -44,4 +42,39 @@ em {
     border-radius: 5px;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
+}
+
+#nom,
+#mail,
+#message,
+#file {
+    width: calc(100vw - 120px);
+}
+
+
+/*--------------------TABLET AND DESKTOP-----------------------------*/
+
+@media screen and (min-width: 768px) {
+    #nom,
+    #mail,
+    #message {
+        width: calc(100vw - 480px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   
+    .contact fieldset {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        border: none;
+        padding: 10px 0 10px 0;
+    }
+
+    #nom,
+    #mail,
+    #message {
+        width: unset;
+    }
+
 }

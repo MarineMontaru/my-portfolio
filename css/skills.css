@@ -1,5 +1,3 @@
-/*CSS spécifique à la page skills.html*/
-
 #header__nav__skills {
     color: var(--highligtht-color);
 }
@@ -8,90 +6,16 @@
     margin: 40px 0;
 }
 
-
-/* ---------------COMPETENCES TECHNIQUES---------------- */
-
-.competences__techniques__details {
+.competences__techniques > ul {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.competences__techniques__details__titre {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+.competences__techniques > ul > li {
+    padding: 5px;
+    margin: 5px 10px;
+    border: solid 1px var(--highligtht-color);
+    border-radius: 5px;
+    color: var(--highligtht-color);
 }
-
-.competences__techniques__details__titre > p {
-    margin: 5px 0;
-    display: inline;
-}
-
-.competences__techniques__details__level {
-    position: relative;
-}
-
-.competences__techniques__details__level > * {
-    display: inline;
-}
-
-.competences__techniques__details__greybar {
-    background-color: rgb(94, 94, 94);
-    width: 100%;
-    height: 5px;
-    position: absolute;
-}
-
-@keyframes ProgressBar10 {
-    from {width: 0;}
-    to {width: 10%;}
-}
-
-@keyframes ProgressBar50 {
-    from {width: 0;}
-    to {width: 50%;}
-}
-
-@keyframes ProgressBar70 {
-    from {width: 0;}
-    to {width: 70%;}
-}
-
-@keyframes ProgressBar90 {
-    from {width: 0;}
-    to {width: 90%;}
-}
-
-.competences__techniques__details__progressbar {
-    background-color: var(--highligtht-color);
-    height: 5px;
-    width: 0;
-    position: absolute;
-}
-
-.competences__techniques__details__progressbar-10 {
-    animation: ProgressBar10 0.3s 1s forwards;
-}
-
-.competences__techniques__details__progressbar-50 {
-    animation: ProgressBar50 0.3s 1s forwards;
-}
-
-.competences__techniques__details__progressbar-70 {
-    animation: ProgressBar70 0.3s 1s forwards;
-}
-
-.competences__techniques__details__progressbar-90 {
-    animation: ProgressBar90 0.3s 1s forwards;
-}
-
-/* ------------FIN DE COMPETENCES TECHNIQUES------------- */
-/* ----------------------LANGUES------------------------- */
-
-
-
-
-
-/* -------------------FIN DE LANGUES--------------------- */

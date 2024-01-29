@@ -20,15 +20,23 @@
             <img src="<?= $worksTable[$id]['image'] ?>" alt="Visuel de ma réalisation">
         </figure>
 
-        <p><?= $worksTable[$id]['date'] ?></p>
+        <section>
 
-        <a href="<?= $worksTable[$id]['lienSite'] ?>">
-            <i class="fas fa-external-link-alt"></i>
-        </a>
+            <p><?= $worksTable[$id]['date'] ?></p>
 
-        <a href="<?= $worksTable[$id]['lienGithub'] ?>">
-            <i class="fab fa-github"></i>
-        </a>
+            <div>
+                
+                <a href="<?= $worksTable[$id]['lienSite'] ?>">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+
+                <a href="<?= $worksTable[$id]['lienGithub'] ?>">
+                    <i class="fab fa-github"></i>
+                </a>
+                
+            </div>
+
+        </section>
 
     </section>
 

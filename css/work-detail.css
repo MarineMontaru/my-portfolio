@@ -1,11 +1,41 @@
 .work {
     display: flex;
+    flex-direction: column;
 }
 
 .work figure {
-    width: 25vw;    
+    flex-grow: 1;
 }
 
-.work__left {
-    margin-right: 20px;
+.work__left > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work__left a {
+    margin: auto 10px;
+    font-size: 16;
+}
+
+/*--------------------TABLET AND DESKTOP-----------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+    .work {
+        flex-direction: row;
+    }
+
+    .work figure {
+        width: 25vw;    
+    }
+
+    .work__left {
+        margin-right: 20px;
+    }
+
+    .work__left > section {
+        flex-direction: row;
+    }
+
 }
