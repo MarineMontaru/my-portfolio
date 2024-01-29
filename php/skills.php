@@ -27,26 +27,26 @@
         ?>  
 
         <?php 
+
         foreach ($competences as $skill => $level) : 
         ?>
 
-        <ul class="competences__techniques__details">
+        <section class="competences__techniques__details">
 
-            <li>
+            <div class="competences__techniques__details__titre">
                 <p><?=$skill?></p>
                 <p><?=$level?></p>
-            </li>
+            </div>
 
         <?php $levelNb = intval($level);
-        $classLevel = "competences__techniques__details__progressbar-".$levelNb;
         ?>
         
-        <li class="competences__techniques__details__level">
-            <div class="competences__techniques__details__greybar"></div>
-            <div class="competences__techniques__details__progressbar" class="<?=$classLevel?>"></div>
-        </li>
+            <div class="competences__techniques__details__level">
+                <div class="competences__techniques__details__greybar"></div>
+                <div class="competences__techniques__details__progressbar competences__techniques__details__progressbar-<?=$levelNb?>"></div>
+            </div>
 
-        </ul>
+        </section>
 
         <?php endforeach; ?>    
     

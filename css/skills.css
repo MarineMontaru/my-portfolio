@@ -14,26 +14,34 @@
 .competences__techniques__details {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.competences__techniques__details > li {
+.competences__techniques__details__titre {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
 
-.competences__techniques__details > li > p {
+.competences__techniques__details__titre > p {
     margin: 5px 0;
+    display: inline;
 }
 
-/*Barres de progression des compétences*/
+.competences__techniques__details__level {
+    position: relative;
+}
+
+.competences__techniques__details__level > * {
+    display: inline;
+}
 
 .competences__techniques__details__greybar {
     background-color: rgb(94, 94, 94);
     width: 100%;
     height: 5px;
+    position: absolute;
 }
 
 @keyframes ProgressBar10 {
@@ -56,23 +64,11 @@
     to {width: 90%;}
 }
 
-.competences__techniques__details__level {
-    position: relative;
-}
-
 .competences__techniques__details__progressbar {
-    content: "";
     background-color: var(--highligtht-color);
-    position: absolute;
     height: 5px;
-}
-
-
-/* Ci-dessous le code lié au PHP pour automatiser les barres de progression - Mais ne fonctionne pas
------------------------------------------------------------- */
-
-.competences__techniques__details__progressbar-10 {
-    border: red solid 3px;
+    width: 0;
+    position: absolute;
 }
 
 .competences__techniques__details__progressbar-10 {
@@ -90,7 +86,6 @@
 .competences__techniques__details__progressbar-90 {
     animation: ProgressBar90 0.3s 1s forwards;
 }
-
 
 /* ------------FIN DE COMPETENCES TECHNIQUES------------- */
 /* ----------------------LANGUES------------------------- */

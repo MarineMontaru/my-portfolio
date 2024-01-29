@@ -1,0 +1,11 @@
+.work {
+    display: flex;
+}
+
+.work figure {
+    width: 25vw;    
+}
+
+.work__left {
+    margin-right: 20px;
+}
