@@ -90,11 +90,15 @@ header {
 
 .banner {
     height: 100vh;
-    width: 5px;
     display: flex;
     justify-content:  center;
     box-shadow: 0 0 20px black;
     z-index: 20;
+}
+
+.banner,
+.banner figure {
+    width: 3px;
 }
 
 /*------------------END OF PARENT SECTIONS---------------------------*/
@@ -186,13 +190,33 @@ h2 {
     color: var(--highlight-color);
 }
 
-/*-----------------------END OF CONTENT------------------------------*/
+/*-----------------END OF CONTENT------------------------*/
 /*--------------------TABLET-----------------------------*/
+
+@media screen and (min-width: 480px) {
+    
+    body {
+        font-size: 16px;
+    }
+    
+    header {
+        width: 80px;
+    }
+    
+    .banner,
+    .banner figure {
+        width: 80px;
+    }
+}
+
+/*----------------END OF TABLET-----------------------------*/
+/*--------------------NOTEBOOK-----------------------------*/
 
 @media screen and (min-width: 768px) {
 
-    body {
-        font-size: 16px;
+    .banner,
+    .banner figure {
+        width: 250px;
     }
 
     .homepage-container {
@@ -216,10 +240,6 @@ h2 {
     .content {
         width: calc(100vw - 220px - 200px);
     }  
-    
-    header {
-        width: 80px;
-    }
 
     .header__initials {
         font-size: 1.6rem;
@@ -254,7 +274,7 @@ h2 {
         font-size: 2em;
     }
 
-    @keyframes MoveRightTablet {
+    @keyframes MoveRightNotebook {
         from {width: 0;}
         to {width: calc(100vw - 220px - 200px)}
     }
@@ -263,7 +283,7 @@ h2 {
         height: 80vh;
         position: absolute;
         background-color: var(--background-color);
-        animation: MoveRightTablet 300ms forwards; 
+        animation: MoveRightNotebook 300ms forwards; 
         z-index: 0;
     }
 
@@ -281,12 +301,13 @@ h2 {
     }
 }
 
-/*--------------------END OF TABLET-----------------------------*/
+/*--------------------END OF NOTEBOOK-----------------------------*/
 /*-----------------------DESKTOP--------------------------------*/
 
 @media screen and (min-width: 1024px) {
 
-    .banner {
+    .banner,
+    .banner figure {
         width: 300px;
     }
 
