@@ -12,9 +12,9 @@
 
 <section class="competences">   
 
-    <section class="competences__techniques">
+    <section class="competences__hard">
 
-        <h3>Techniques</h3>
+        <h3>Hard skills</h3>
 
         <ul>
             <li>JavaScript</li>
@@ -22,10 +22,25 @@
             <li>HTML5</li>
             <li>CSS</li>
             <li>Boostrap</li>
+            <li>Qualité</li>
+            <li>Résolution de problèmes</li>
             <li>Gestion de projet</li>
+            <li>Conduite du changement</li>
             <li>AMOA</li>
         </ul>
     
+    </section>
+
+    <section class="competences__soft">
+
+        <h3>Soft skills</h3>
+
+        <ul>
+            <li>Organisée</li>
+            <li>Rigoureuse</li>
+            <li>Bienveillante</li>
+        </ul>
+
     </section>
 
     <section class="competences__langues">

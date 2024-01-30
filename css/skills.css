@@ -6,16 +6,23 @@
     margin: 40px 0;
 }
 
-.competences__techniques > ul {
+.competences__hard > ul,
+.competences__soft > ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.competences__techniques > ul > li {
+.competences__hard > ul > li,
+.competences__soft > ul > li  {
     padding: 5px;
     margin: 5px 10px;
-    border: solid 1px var(--highligtht-color);
+    border: solid 1px;
     border-radius: 5px;
-    color: var(--highligtht-color);
+}
+
+.competences__soft > ul > li  {
+    border: solid 1px var(--highligtht-color);
+    background-color: var(--highligtht-color);
+    color: var(--background-color);
 }
