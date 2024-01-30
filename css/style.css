@@ -2,7 +2,7 @@
 
 :root {
     --background-color: #1E3142;
-    --highligtht-color: #FFC16E;
+    --highlight-color: #FFC16E;
 }
 
 /*----------------------------GLOBAL----------------------------------*/
@@ -110,7 +110,7 @@ header {
 
 .header__initials::after {
     content:"";
-    background-color: var(--highligtht-color);
+    background-color: var(--highlight-color);
     height: 3px;
     bottom: 0;
     left: 10px;
@@ -183,7 +183,7 @@ header {
 }
 
 h2 {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 /*-----------------------END OF CONTENT------------------------------*/

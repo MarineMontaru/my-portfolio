@@ -20,7 +20,7 @@
                 <i class="fas fa-envelope"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/marine-montaru-910a0b9a" target=_blank id="banner__id__contact__linkedin">
+            <a href="https://www.linkedin.com/in/marine-montaru" target=_blank id="banner__id__contact__linkedin">
                 <i class="fab fa-linkedin"></i>
             </a>
 

@@ -1,5 +1,5 @@
 #header__nav__experience {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 .experience,
@@ -33,7 +33,7 @@
     position: absolute;
     left: 0;
     width: 2px;
-    background-color: var(--highligtht-color);
+    background-color: var(--highlight-color);
     animation: LeftBarBefore 150ms 0.5s forwards ease-in-out;
 }
 
@@ -42,7 +42,7 @@
     position: absolute;
     left: 4px;
     width: 2px;
-    background-color: var(--highligtht-color);
+    background-color: var(--highlight-color);
     animation: LeftBarAfter 300ms 0.6s forwards ease-in-out;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .experience__job__time {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 .experience__job__titre {

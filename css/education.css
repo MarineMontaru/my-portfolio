@@ -1,5 +1,5 @@
 #header__nav__education {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 .formation,
@@ -33,7 +33,7 @@
     position: absolute;
     left: 0;
     width: 2px;
-    background-color: var(--highligtht-color);
+    background-color: var(--highlight-color);
     animation: LeftBarBefore 150ms 0.5s forwards ease-in-out;
 }
 
@@ -42,7 +42,7 @@
     position: absolute;
     left: 4px;
     width: 2px;
-    background-color: var(--highligtht-color);
+    background-color: var(--highlight-color);
     animation: LeftBarAfter 300ms 0.6s forwards ease-in-out;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .formation__diplome__date {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 .formation__diplome__titre {

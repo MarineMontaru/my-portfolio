@@ -1,5 +1,5 @@
 #header__nav__works {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 .my-works {
@@ -82,7 +82,7 @@
 
 .my-works__work:hover figcaption {
     z-index:10;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     flex-direction: column;
     align-items: center;

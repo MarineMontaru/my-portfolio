@@ -22,6 +22,9 @@
             <li>HTML5</li>
             <li>CSS</li>
             <li>Boostrap</li>
+            <li>Figma</li>
+            <li>Git</li>
+            <li>GitHub</li>
             <li>Qualité</li>
             <li>Résolution de problèmes</li>
             <li>Gestion de projet</li>

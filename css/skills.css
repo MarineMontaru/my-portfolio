@@ -1,5 +1,5 @@
 #header__nav__skills {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 .competences > section {
@@ -22,7 +22,7 @@
 }
 
 .competences__soft > ul > li  {
-    border: solid 1px var(--highligtht-color);
-    background-color: var(--highligtht-color);
+    border: solid 1px var(--highlight-color);
+    background-color: var(--highlight-color);
     color: var(--background-color);
 }

@@ -5,6 +5,7 @@
 
 .work figure {
     flex-grow: 1;
+    margin-top: 20px;
 }
 
 .work__left > section {
@@ -13,9 +14,37 @@
     justify-content: space-between;
 }
 
-.work__left a {
+.work__left i {
     margin: auto 10px;
-    font-size: 16;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    color: var(--background-color);
+    padding: 10px;
+}
+
+.work__nav,
+.work__nav > a {
+    display: flex;
+}
+
+.work__nav {
+    justify-content: space-around;
+}
+
+.work__nav > a {
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+    &:hover {
+        scale: 1.1;
+        transition: 300ms ease-in-out;
+    }
+}
+
+.work__nav i {
+    margin: 5px;
 }
 
 /*--------------------TABLET AND DESKTOP-----------------------------*/

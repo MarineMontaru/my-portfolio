@@ -1,5 +1,5 @@
 #header__nav__contact {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 .contact__form {
@@ -21,7 +21,7 @@
 }
 
 .contact button {
-    background-color: var(--highligtht-color);
+    background-color: var(--highlight-color);
     padding: 10px 20px;
     border-radius: 5px;
     
@@ -31,7 +31,7 @@
 }
 
 em {
-    color: var(--highligtht-color);
+    color: var(--highlight-color);
 }
 
 #em-small {

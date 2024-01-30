@@ -6,6 +6,8 @@
     if(!empty($_GET)) {
         $id = filter_input(INPUT_GET, "id");
     }
+
+    if(isset($worksTable[$id])) :
 ?>
 
 <link rel="stylesheet" href="../css/work-detail.css">
@@ -22,7 +24,7 @@
 
         <section>
 
-            <p><?= $worksTable[$id]['date'] ?></p>
+            <p><em><?= $worksTable[$id]['date'] ?></em></p>
 
             <div>
                 
@@ -58,7 +60,28 @@
     </aside>
 
 </section>
+
+<nav class="work__nav">
+
+    <?php 
+    if($id > 1) : ?>
+        <a href="http://127.0.0.1/ProjetsPerso/my-resume/php/work-detail.php?id=<?=$id - 1?>">
+            <i class="fas fa-arrow-circle-left"></i>
+            <p>Réalisation précédente</p>
+        </a>
+    <?php endif; ?>
+
+    <?php if($id < count($worksTable)) : ?>
+        <a href="http://127.0.0.1/ProjetsPerso/my-resume/php/work-detail.php?id=<?=$id + 1?>">
+            <p>Réalisation suivante</p>
+            <i class="fas fa-arrow-circle-right"></i>
+        </a>
+    <?php endif; ?>
+
+</nav>
              
 <?php
+
+    endif;
     require ('templates/template-footer.php');
 ?>
