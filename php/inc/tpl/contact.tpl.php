@@ -1,8 +1,3 @@
-<?php
-    include ('templates/template-header.php');
-    include ('templates/template-banner.php');
-?>
-
 <link rel="stylesheet" href="../css/contact.css"> 
 
 <h2>
@@ -41,7 +36,3 @@
     </form>
         
 </section>
-
-<?php
-    include ('templates/template-footer.php');
-?>

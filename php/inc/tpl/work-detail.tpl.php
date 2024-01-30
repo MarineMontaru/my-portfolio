@@ -1,7 +1,4 @@
 <?php
-    require ('templates/template-header.php');
-    require ('templates/template-banner.php');
-    require ('works-table.php');
 
     if(!empty($_GET)) {
         $id = filter_input(INPUT_GET, "id");
@@ -65,14 +62,14 @@
 
     <?php 
     if($id > 1) : ?>
-        <a href="http://127.0.0.1/ProjetsPerso/my-resume/php/work-detail.php?id=<?=$id - 1?>">
+        <a href="index.php?page=work-detail&id=<?=$id - 1?>">
             <i class="fas fa-arrow-circle-left"></i>
             <p>Réalisation précédente</p>
         </a>
     <?php endif; ?>
 
     <?php if($id < count($worksTable)) : ?>
-        <a href="http://127.0.0.1/ProjetsPerso/my-resume/php/work-detail.php?id=<?=$id + 1?>">
+        <a href="index.php?page=work-detail&id=<?=$id + 1?>">
             <p>Réalisation suivante</p>
             <i class="fas fa-arrow-circle-right"></i>
         </a>
@@ -80,8 +77,4 @@
 
 </nav>
              
-<?php
-
-    endif;
-    require ('templates/template-footer.php');
-?>
+<?php endif; ?>

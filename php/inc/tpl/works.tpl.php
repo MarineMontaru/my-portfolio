@@ -1,9 +1,3 @@
-<?php
-    require ('templates/template-header.php');
-    require ('templates/template-banner.php');
-    require ('works-table.php');
-?>
-
 <link rel="stylesheet" href="../css/works.css"> 
             
 
@@ -20,7 +14,7 @@ foreach ($worksTable as $workNb => $workDetail): ?>
     <figure class="my-works__work">
         <img src="<?=$workDetail['image']?>" alt="Visuel de ma réalisation"  id="my_works__work<?=$workNb?>">
         <figcaption>
-            <a href="./work-detail.php?id=<?=$workNb?>">
+            <a href="index.php?page=work-detail&id=<?=$workNb?>">
                 <?=$workDetail['titre']?>
             </a>
             <div>
@@ -37,8 +31,3 @@ foreach ($worksTable as $workNb => $workDetail): ?>
 <?php endforeach ?>
 
 </section>
-                
-
-<?php
-    require ('templates/template-footer.php');
-?>

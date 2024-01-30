@@ -29,23 +29,23 @@
                 <nav class="header__nav">
             
    
-                <a href="./skills.php" id="header__nav__skills">
+                <a href="index.php?page=skills" id="header__nav__skills">
                         <i class="fas fa-paperclip" aria-label="Skills"></i>
                     </a>
             
-                    <a href="./education.php"  id="header__nav__education">
+                    <a href="index.php?page=education"  id="header__nav__education">
                         <i class="fas fa-graduation-cap" aria-activedescendant="Education"></i>
                     </a>
             
-                    <a href="./experience.php"  id="header__nav__experience">
+                    <a href="index.php?page=experience"  id="header__nav__experience">
                         <i class="fas fa-briefcase" aria-label="Experience"></i>
                     </a>
             
-                    <a href="./works.php"  id="header__nav__works">
+                    <a href="index.php?page=works"  id="header__nav__works">
                         <i class="fas fa-code"></i>
                     </a>
             
-                    <a href="./contact.php"  id="header__nav__contact">
+                    <a href="index.php?page=contact"  id="header__nav__contact">
                     <i class="far fa-address-card" aria-label="Contact"></i>
                     </a>
             

@@ -120,4 +120,7 @@
         padding-right: 30px;
     }
 
+    .my-works__work:nth-of-type(2n) > figcaption {
+        right: 20px;
+    }
 }

@@ -1,8 +1,3 @@
-<?php
-    include ('templates/template-header.php');
-    include ('templates/template-banner.php');
-?>
-
 <link rel="stylesheet" href="../css/education.css"> 
             
 <h2>
@@ -63,8 +58,3 @@
     </article>
 
 </section> 
-        
-
-<?php
-    include ('templates/template-footer.php');
-?>

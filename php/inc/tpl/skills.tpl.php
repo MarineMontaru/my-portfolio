@@ -1,8 +1,3 @@
-<?php
-    include ('templates/template-header.php');
-    include ('templates/template-banner.php');
-?>
-
 <link rel="stylesheet" href="../css/skills.css"> 
 
 <h2>
