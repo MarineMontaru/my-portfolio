@@ -52,12 +52,22 @@ em {
 }
 
 
-/*--------------------TABLET AND DESKTOP-----------------------------*/
+/*--------------------TABLET NOTEBOOK AND DESKTOP-----------------------------*/
+
+@media screen and (min-width: 480px) {
+    #nom,
+    #mail,
+    #message,
+    #file {
+        width: calc(100vw - 220px);
+    }
+}
 
 @media screen and (min-width: 768px) {
     #nom,
     #mail,
-    #message {
+    #message,
+    #file {
         width: calc(100vw - 480px);
     }
 }
@@ -73,7 +83,8 @@ em {
 
     #nom,
     #mail,
-    #message {
+    #message,
+    #file {
         width: unset;
     }
 

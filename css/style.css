@@ -200,12 +200,31 @@ h2 {
     }
     
     header {
-        width: 80px;
+        width: 60px;
     }
     
     .banner,
     .banner figure {
         width: 80px;
+    }
+    
+    .header__initials {
+        font-size: 1.6rem;
+        margin-top: 10px;
+    }
+    
+    .header__initials::after {
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+    }
+    
+    .banner__id {
+        padding: 10px 5px 10px 140px;
+    }
+
+    .content {
+        padding-top: 190px;
     }
 }
 
@@ -240,18 +259,6 @@ h2 {
     .content {
         width: calc(100vw - 220px - 200px);
     }  
-
-    .header__initials {
-        font-size: 1.6rem;
-        margin-top: 10px;
-    }
-    
-    .header__initials::after {
-        bottom: 0;
-        left: 25px;
-        right: 25px;
-    }
-
 
     .banner {
         margin: 5vh 0;
