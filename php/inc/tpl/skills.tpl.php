@@ -15,6 +15,7 @@
             <li>JavaScript</li>
             <li>PHP</li>
             <li>HTML5</li>
+            <li>MySQL</li>
             <li>CSS</li>
             <li>Boostrap</li>
             <li>Figma</li>

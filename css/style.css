@@ -318,9 +318,19 @@ h2 {
         width: 300px;
     }
 
+    main,
+    .background-content,
+    .content {
+        width: 800px;
+        max-width: calc(100vw - 220px - 200px);
+    }  
+
     @keyframes MoveRightDesktop {
         from {width: 0;}
-        to {width: calc(100vw - 220px - 200px)}
+        to {
+            width: 800px;
+            max-width: calc(100vw - 220px - 200px)
+        }
     }
 
     .background-content{
