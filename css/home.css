@@ -1,0 +1,20 @@
+strong {
+    color: var(--highlight-color);
+}
+
+.introduction > p {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.introduction > p:not(:last-of-type)::after {
+    position: absolute;
+    content:"";
+    background-color: var(--highlight-color);
+    height: 1px;
+    bottom: 0;
+    left: 200px;
+    right: 200px;
+    z-index: 90;
+}
