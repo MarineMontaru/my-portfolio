@@ -6,19 +6,25 @@
     margin: 40px 0;
 }
 
-.competences__hard > ul,
+.competences__programmation > ul,
+.competences__transverses > ul,
 .competences__soft > ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.competences__hard > ul > li,
+.competences__programmation > ul > li,
+.competences__transverses > ul > li,
 .competences__soft > ul > li  {
     padding: 5px;
     margin: 5px 10px;
     border: solid 1px;
     border-radius: 5px;
+}
+
+.competences__programmation > ul > li {
+    color: var(--highlight-color);
 }
 
 .competences__soft > ul > li  {

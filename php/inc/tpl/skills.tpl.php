@@ -7,9 +7,9 @@
 
 <section class="competences">   
 
-    <section class="competences__hard">
+    <section class="competences__programmation">
 
-        <h3>Hard skills</h3>
+        <h3>Programmation</h3>
 
         <ul>
             <li>JavaScript</li>
@@ -20,6 +20,15 @@
             <li>Figma</li>
             <li>Git</li>
             <li>GitHub</li>
+
+        </ul>
+    </section>
+
+    <section class="competences__transverses">
+
+        <h3>Transverses</h3>
+
+        <ul>
             <li>Qualité</li>
             <li>Résolution de problèmes</li>
             <li>Gestion de projet</li>
@@ -35,6 +44,8 @@
 
         <ul>
             <li>Organisée</li>
+            <li>Autonome</li>
+            <li>Proactive</li>
             <li>Rigoureuse</li>
             <li>Bienveillante</li>
         </ul>
