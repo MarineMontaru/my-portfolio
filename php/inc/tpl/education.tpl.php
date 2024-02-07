@@ -57,4 +57,20 @@
 
     </article>
 
+    <article class="formation__diplome">
+        
+        <p class="formation__diplome__date">
+            Sep. 2010 - Dec. 2010
+        </p>
+
+        <p class="formation__diplome__titre">
+            Semestre en échange
+        </p>
+
+        <p class="formation__diplome__organisme">
+            Ecole Polytechnique, Montréal (Québec)
+        </p>
+
+    </article>
+
 </section> 

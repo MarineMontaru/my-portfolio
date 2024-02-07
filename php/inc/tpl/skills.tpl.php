@@ -46,7 +46,8 @@
         <ul>
             <li>Organisée</li>
             <li>Autonome</li>
-            <li>Proactive</li>
+            <li>Adaptabilité</li>
+            <li>Curieuse</li>
             <li>Rigoureuse</li>
             <li>Bienveillante</li>
         </ul>
