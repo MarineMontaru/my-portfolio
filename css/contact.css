@@ -24,10 +24,10 @@
     background-color: var(--highlight-color);
     padding: 10px 20px;
     border-radius: 5px;
-    
-    &:hover {
-        opacity: 0.8;
-    }
+}
+
+.contact button:hover {
+    opacity: 0.8;
 }
 
 em {
