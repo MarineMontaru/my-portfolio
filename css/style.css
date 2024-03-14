@@ -18,8 +18,8 @@ body {
     transition: 300ms ease-in-out;
     background-color: white;
     color: white;
-    min-height: 100vh; /*pour être rétro-compatible*/
-    min-height: 100svh; 
+    max-height: 100vh; /*pour être rétro-compatible*/
+    max-height: 100svh; 
 }
 
 body,
